@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+        }
+
+        header {
+            border: 3px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: red;
+            color: white;
+        }
+
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="background-color: lightgray; color:darkblue; font-size: 40px">Welcome to My Webpage</h1>
+        <h2 style="font-weight:bold;color:green;font-size:28px">Learninng Web Development</h2>
+        <nav>
+            <a href="" onmouseout="this.style.textDecoration='none'"
+                onmouseover="this.style.textDecoration='underline'">Home</a>
+            <a href="" onmouseout="this.style.textDecoration='none'"
+                onmouseover="this.style.textDecoration='underline'">Aboout</a>
+            <a href="" onmouseout="this.style.textDecoration='none'"
+                onmouseover="this.style.textDecoration='underline'">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <image
+            src="https://th.bing.com/th/id/OIP.vLwHXuwJLaZSJh0SYPrKdgHaEo?w=264&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1"
+            alt="dummy_image" style="width:400px;border-radius:50%;box-shadow:1px 0 0 #fff;" />
+    </section>
+
+    <section id="table">
+        <table border="1" style="border-collapse: collapse">
+            <tr>
+                <th style="border-color: red;">Service</th>
+                <th style="border-color: orange;">Price</th>
+            </tr>
+            <tr>
+                <td style="border-color: yellow;">Web Design</td>
+                <td style="border-color: green;">$500</td>
+            </tr>
+            <tr>
+                <td style="border-color: lightbrown;">SEO Optimization</td>
+                <td style="border-color: lightgray;">$300</td>
+            </tr>
+            <tr>
+                <td style="border-color: brown" ;>Content Writing</td>
+                <td style="border-color: black;">$150</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <button name="Learn More" style="background-color:green;color:lightbrown;padding:10px">Learn More</button>
+    </section>
+    <section>
+        <p style="text-align: justify;color:darkgray;border:2px solid black">
+            We provide services ofr web design and seo optimization. We make landing dashboards with beautiful and
+            varied colors.
+            We also provide content writing services for news outlets and magzines.
+        </p>
+    </section>
+    <section>
+        <form action="">
+            <label>Name:</label> <input name="name" type="text" placeholder="Please enter your name" />
+            <label>Email:</label> <input name="email" type="email" placeholder="Please enter your email" />
+            <input type="button" name="submit" value="submit">
+        </form>
+    </section>
+    <footer>
+        Copyright My Website @ 2025
+    </footer>
+</body>
+
+</html>
