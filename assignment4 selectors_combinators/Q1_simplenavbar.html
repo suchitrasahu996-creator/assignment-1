@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Selector Assignment</title>
+    <style>
+        *{ 
+           font-family: Arial, Helvetica, sans-serif; 
+        }
+        header,
+        footer{
+            margin: 10px;
+            padding: 10px;
+        }
+        #header{
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            margin-right: 12px;
+        }
+        nav-link{
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            margin-right: 15px;
+           }
+           nav-link:hover{
+            font-weight: bold;
+            color: blue;
+           }
+           li:first-child.nav-link{
+            font-weight:bold;
+            color:darkblue;
+           }
+    </style>
+    
+</head>
+<body>
+    <header id="header">
+        <h2>My Blog</h2>
+        <nav>
+            <ul style ="list-style: none;padding: 0;display: flex;">
+                <li><a class="nav-link" href="#">Home</a></li>
+                 <li><a class="nav-link" href="#">Web Design</a></li>
+                  <li><a class="nav-link" href="#">About</a></li>
+                  <li><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+    <footer>
+        <p>Copyrighted under Copyright Act @ 2023</p>
+    </footer>
+</body>
+</html>
